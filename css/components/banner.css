@@ -1,0 +1,85 @@
+.banner {
+ /* background: url(../../images/desert.jpg);*/
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../images/desert.jpg');
+  color: #BF4E30;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner p {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin-left: 50px;
+  display: block;
+  text-align: center;
+}
+
+/*.banner h1, p, a {
+  margin-left: 50px;
+  text-align: center;
+}*/
+
+.banner a {
+  background-color: #BF4E30;
+  border-color: #BF4E30;
+  border-style: solid;
+  padding: 8px 16px;
+  border-radius: 7px;
+  height: 60px;
+  width: 80px;
+  color: white;
+  margin-top: 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  /*height: 300px;*/
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230, 230, 230);
+  text-align: center;
+  border: 1px solid rgb(230, 230, 230);
+  margin-left: 70px;
+  margin-right: 70px;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+.card p, h3 {
+  text-align: center;
+}
+
+.card img {
+  height: 100px;
+  width: 130px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  padding: 50px;
+  background-color: #BF4E30;
+}
+
+.footer a {
+  color: white;
+  height: 40px;
+  width: 40px;
+  margin: 30px;
+  width: 1.25em;
+}
+
+
